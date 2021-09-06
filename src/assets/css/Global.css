@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+*{
+ margin:0px;
+ padding:0px   
+}
+
+.App{
+  text-Align:center;  
+}
+
+.buttonWrap{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 20px;
+}
+
+
+.buttonWrap button{
+  padding: 10px 7px;
+  margin: 2px;
+  border-radius: 2px;
+  border: none;
+  background-color: #38ada9;
+  color: aliceblue;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.buttonWrap button:hover{
+ background-color: #b71540;
+}
